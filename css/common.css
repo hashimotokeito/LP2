@@ -580,9 +580,39 @@ header .drawer{
   header .drawer{
     margin-top: 15px;
   }
-@media screen and (min-width:500px) and (max-width: 540px){
+}  
+@media screen and (min-width:490px) and (max-width: 550px){
   .faq .txt{
-   width: 60%;
+   width: 70%;
+  }
+  .news .txt{
+    width: 60%;
+  }
+  .contact_btn .btn{
+    width: 30%;
+  }
+  .faq .more{
+    width: 30%;
+  }
+  .pages .grid li{
+    font-size: 10px;
+  }
+  .footer_logo1 img,
+  .footer_logo2 img{
+    padding-bottom: 50px;
+  }
+  .position{
+    padding-top: 30px;
+  }
+  .app_wrap2{
+    display: unset;
+  }
+
+}
+
+@media screen and (min-width:490px) and (max-width: 550px){
+  .faq .txt{
+     width: 70%;
   }
   .news .txt{
     width: 60%;
